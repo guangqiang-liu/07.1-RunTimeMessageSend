@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9C3A794F23ED6A50004C7B9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A794E23ED6A50004C7B9D /* main.m */; };
+		9C3A795723ED6A62004C7B9D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A795623ED6A62004C7B9D /* Person.m */; };
+		9C3A795B23ED9E03004C7B9D /* Person2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A795A23ED9E03004C7B9D /* Person2.m */; };
+		9C3A795E23EDB0B7004C7B9D /* Person3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A795D23EDB0B7004C7B9D /* Person3.m */; };
+		9C3A796123EDB151004C7B9D /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A796023EDB151004C7B9D /* Student.m */; };
+		9C3A796723EE593E004C7B9D /* DynamicTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A796623EE593E004C7B9D /* DynamicTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,17 @@
 /* Begin PBXFileReference section */
 		9C3A794B23ED6A50004C7B9D /* 07.1-runtime objc_msgSend() */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07.1-runtime objc_msgSend()"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3A794E23ED6A50004C7B9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C3A795523ED6A62004C7B9D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9C3A795623ED6A62004C7B9D /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9C3A795823ED6AF3004C7B9D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9C3A795923ED9E03004C7B9D /* Person2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person2.h; sourceTree = "<group>"; };
+		9C3A795A23ED9E03004C7B9D /* Person2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person2.m; sourceTree = "<group>"; };
+		9C3A795C23EDB0B7004C7B9D /* Person3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person3.h; sourceTree = "<group>"; };
+		9C3A795D23EDB0B7004C7B9D /* Person3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person3.m; sourceTree = "<group>"; };
+		9C3A795F23EDB151004C7B9D /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		9C3A796023EDB151004C7B9D /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		9C3A796523EE593E004C7B9D /* DynamicTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicTest.h; sourceTree = "<group>"; };
+		9C3A796623EE593E004C7B9D /* DynamicTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,17 @@
 			isa = PBXGroup;
 			children = (
 				9C3A794E23ED6A50004C7B9D /* main.m */,
+				9C3A795823ED6AF3004C7B9D /* main.cpp */,
+				9C3A795523ED6A62004C7B9D /* Person.h */,
+				9C3A795623ED6A62004C7B9D /* Person.m */,
+				9C3A795923ED9E03004C7B9D /* Person2.h */,
+				9C3A795A23ED9E03004C7B9D /* Person2.m */,
+				9C3A795C23EDB0B7004C7B9D /* Person3.h */,
+				9C3A795D23EDB0B7004C7B9D /* Person3.m */,
+				9C3A795F23EDB151004C7B9D /* Student.h */,
+				9C3A796023EDB151004C7B9D /* Student.m */,
+				9C3A796523EE593E004C7B9D /* DynamicTest.h */,
+				9C3A796623EE593E004C7B9D /* DynamicTest.m */,
 			);
 			path = "07.1-runtime objc_msgSend()";
 			sourceTree = "<group>";
@@ -119,6 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C3A795B23ED9E03004C7B9D /* Person2.m in Sources */,
+				9C3A795723ED6A62004C7B9D /* Person.m in Sources */,
+				9C3A796123EDB151004C7B9D /* Student.m in Sources */,
+				9C3A796723EE593E004C7B9D /* DynamicTest.m in Sources */,
+				9C3A795E23EDB0B7004C7B9D /* Person3.m in Sources */,
 				9C3A794F23ED6A50004C7B9D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
